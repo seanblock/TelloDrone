@@ -53,9 +53,9 @@ def sendit(str):
     sent = sock.sendto(msg, tello_address)
 
 def sleep(x):
-    time.sleep
+    time.sleep(x)
 
-# Send Data
+# Send Data 
 sendit("command")
 sendit("takeoff")
 sleep(5)
